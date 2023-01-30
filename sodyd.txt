@@ -1,0 +1,48 @@
+repository 생성 후
+
+	git bash에서
+git config --global user.name "banda0195"
+이름 입력
+git config --global user.email "gkstjdeo1@naver.com"
+이메일 입력
+git config --list
+이름, 이메일 입력확인
+
+	터미널에서
+git init
+git add "파일 이름"
+git add .
+파일 전체 업로드
+
+git status
+새로 추가된 파일 확인
+
+git commit -m "first commit"
+git remote add origin https://github.com/banda0195/LearnToGit.git
+주소 입력
+
+git remote -v
+위의 주소 입력확인
+
+git push origin master
+push하기
+
+	git bash에서
+cd 이동 명령어
+. -> 현재 폴더
+.. -> 상위 폴더
+... -> 상상위 폴더
+ex) cd .. / 상위 폴더로 이동
+ex) cd HSD / 현재 폴더 중 "HSD" 폴더로 이동
+
+mkdir 폴더 생성
+ex) mkdir test / "test" 이름의 폴더 생성
+git clone 깃허브 주소
+해당 repository pull
+code . visual studio code에 파일 등록 및 열기
+
+git checkout -b "이름"
+새로운 branch로 이동
+
+git checkout master
+마스터 branch로 이동
